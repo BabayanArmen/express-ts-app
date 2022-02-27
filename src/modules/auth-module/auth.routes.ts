@@ -5,11 +5,11 @@ import { AuthController } from './auth.controller'
 
 export const authRoutes = express.Router()
 
-// auth/login
+// api/auth/login
 authRoutes.post('/login', validateBody(User),  AuthController.Login)
 
-// auth/query
+// api/auth/query
 authRoutes.post('/query', validateQuery(['name', 'age']), AuthController.TestQuery)
 
-// auth/params
+// api/auth/params
 authRoutes.post('/params/:id', validateParams, AuthController.TestParams)

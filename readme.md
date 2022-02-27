@@ -32,3 +32,8 @@ class-transformer // https://www.npmjs.com/package/class-transformer
     import 'reflect-metadata';
     import { ClassConstructor, Expose, plainToClass, Type } from 'class-transformer';
 # ///////////////////////////////////////////////////////////////////////////////////
+
+for mysql use
+mysql -- npm i mysql
+
+or mysql2 -- npm install mysql2
